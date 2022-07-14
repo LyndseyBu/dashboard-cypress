@@ -1,0 +1,19 @@
+{
+  "name": "tekton-dashboard-cypress",
+  "version": "1.0.0",
+  "description": "Repository for Tekton Dashboard end-to-end tests",
+  "scripts": {
+    "cypress:open": "cypress open",
+    "lint": "eslint --ignore-path .gitignore .",
+    "lint:fix": "npm run lint -- --fix"
+  },
+  "devDependencies": {
+    "cypress": "^10.0.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-cypress": "^2.12.1",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "2.7.1"
+  },
+  "author": "LyndseyBu",
+  "license": "ISC"
+}
