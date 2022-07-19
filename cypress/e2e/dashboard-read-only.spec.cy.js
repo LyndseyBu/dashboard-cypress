@@ -5,7 +5,6 @@ describe('dashboard read only test', () => {
     cy.url().should('include', '/about');
 
     cy.get('#main-content-header').contains('About Tekton');
-    cy.get();
     cy.get('#tkn--about--dashboard-tile > h3').contains('Dashboard');
     cy.get('#tkn--about--dashboard-tile > dl > :nth-child(4)').should(
       'be.visible'
